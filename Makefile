@@ -4,5 +4,3 @@ build:
 server:
 	go run *.go
 
-client:
-	go run client/main.go
