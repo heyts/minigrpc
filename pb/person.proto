@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package pb;
+
+message Person {
+    string firstname = 1;
+    string lastname = 2;
+}
+
+message GreetingRequest {
+    string person = 1;
+}
+
+message GreetingReply {
+    Person person = 1;
+    string message = 2;
+}
+
+service Greeting {
+    rpc SayHi (GreetingRequest) returns (GreetingReply) {}; 
+}
