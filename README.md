@@ -1,5 +1,5 @@
 # MiniGRPC
-Minimal GRPC Client-Server implementation
+Minimal GRPC Client-Server implementation in 50 lines of code.
 
 # How to Use
 - On one terminal type `make server` to start the server
